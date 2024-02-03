@@ -1,29 +1,22 @@
 import {
   HeaderContainer,
-  Navigation,
-  StyledLink,
-  IconWrapper,
+  HeaderNavigation,
+  HeaderLink,
+  HeaderLogo,
 } from './Header.styled';
-import sprite from 'assets/sprite.svg';
+import logo from '../../images/logo.png';
 
 export const Header = () => {
-
   return (
     <HeaderContainer>
-      <Navigation>
-        <StyledLink to="/first">
-          <IconWrapper>
-            <use href={`${sprite}#icon-logo`} />
-          </IconWrapper>
-          First
-        </StyledLink>
-        <StyledLink to="/second">
-          <IconWrapper>
-            <use href={`${sprite}#icon-logo`} />
-          </IconWrapper>
-          Second
-        </StyledLink>
-      </Navigation>
+      <HeaderLogo>
+        <img src={logo} alt="logo images" width={100} height={100} />
+      </HeaderLogo>
+      <HeaderNavigation>
+        <HeaderLink to="/">Home</HeaderLink>
+        <HeaderLink to="/catalog">Catalog</HeaderLink>
+        <HeaderLink to="/favorite">Favorite</HeaderLink>
+      </HeaderNavigation>
     </HeaderContainer>
   );
 };
