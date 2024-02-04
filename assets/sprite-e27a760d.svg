@@ -1,0 +1,17 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-x" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
+</symbol>
+<symbol id="icon-heart" viewBox="0 0 36 32">
+<path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.1633" d="M29.271 2.244c-1.056-0.437-2.187-0.663-3.33-0.663s-2.274 0.225-3.33 0.663c-1.056 0.437-2.015 1.079-2.823 1.887l-1.676 1.677-1.677-1.677c-1.632-1.632-3.845-2.549-6.153-2.549s-4.521 0.917-6.153 2.549c-1.632 1.632-2.549 3.845-2.549 6.153s0.917 4.521 2.549 6.153l13.982 13.982 13.982-13.982c0.808-0.808 1.449-1.767 1.887-2.823s0.663-2.187 0.663-3.33-0.225-2.274-0.663-3.33c-0.437-1.056-1.079-2.015-1.887-2.823s-1.767-1.449-2.823-1.887z"></path>
+</symbol>
+<symbol id="icon-Vector" viewBox="0 0 55 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="9.1375" d="M4.587 4.588l22.844 22.844 22.844-22.844"></path>
+</symbol>
+<symbol id="icon-Vector-1" viewBox="0 0 2 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M1 0v32"></path>
+</symbol>
+</defs>
+</svg>
