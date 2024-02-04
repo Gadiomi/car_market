@@ -19,7 +19,7 @@ function CardList() {
     dispatch(fetchCar(limit + 13));
     dispatch(setLimit());
   };
-
+  console.log('privet');
   return (
     <>
       {carsFilter ? (
