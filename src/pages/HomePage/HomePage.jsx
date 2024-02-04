@@ -5,14 +5,12 @@ import {
   Title,
   DescriptionText,
   ImagesContainer,
-  CarImg,
   BgCarImg,
   ButtonContauner,
   ContactBtn,
   Button,
 } from './HomePage.styled';
-import carImg from '../../images/home-page-car.png';
-import CarBagroundImg from '../../images/home-page-dg1.png';
+import CarBagroundImg from '../../images/photo_bg.jpg';
 
 function HomePage() {
   return (
@@ -39,7 +37,6 @@ function HomePage() {
             alt="bagroundimg"
             loading="lazy"
           ></BgCarImg>
-          <CarImg src={carImg} alt="carimg" width={520} height={250}></CarImg>
         </ImagesContainer>
       </HomeContainer>
     </>

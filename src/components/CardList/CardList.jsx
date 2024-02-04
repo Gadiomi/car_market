@@ -19,7 +19,7 @@ function CardList() {
     dispatch(fetchCar(limit + 13));
     dispatch(setLimit());
   };
-  console.log('privet');
+  console.log(car.length, limit);
   return (
     <>
       {carsFilter ? (
@@ -28,7 +28,7 @@ function CardList() {
             carsFilter.map((elemet, index) => (
               <CardItem key={index} car={elemet} />
             ))}
-          {carsFilter.lenght === 0 ? <div>Car not found</div> : undefined}
+          {carsFilter.length === 0 ? <div>Car not found</div> : undefined}
         </CarList>
       ) : (
         <>
@@ -38,7 +38,7 @@ function CardList() {
                 <CardItem key={index} car={element} />
               ))}
           </CarList>
-          {car.lenght > limit ? (
+          {car.length > limit ? (
             <LoadMoreBtn type="button" onClick={hedlClick}>
               Load more
             </LoadMoreBtn>

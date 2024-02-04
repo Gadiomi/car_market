@@ -83,12 +83,8 @@ export const Button = styled(Link)`
 
 export const ImagesContainer = styled.div``;
 
-export const CarImg = styled.img`
-  position: relative;
-  top: -96px;
-`;
-
 export const BgCarImg = styled.img`
+  width: 100%;
   position: absolute;
   top: 0px;
   right: 0px;
