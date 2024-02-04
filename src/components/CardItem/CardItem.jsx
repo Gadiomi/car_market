@@ -72,7 +72,7 @@ function CardItem({ car }) {
         />
         {!favorite ? (
           <SvgHeart onClick={HandleFavoriteClick}>
-            <use href={sprite + '#icon-heart'}></use>
+            <use href={sprite + '#icon-heart-1'}></use>
           </SvgHeart>
         ) : (
           <SvgHeartActiv onClick={HandleFavoriteClick}>

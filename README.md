@@ -61,10 +61,10 @@ for tracking their automotive achievements and choices.
 - detailed information about each car
 - filter cars by brand, price and mileage
 
-**_Driving selected cars_**
+**_Management selected cars_**
 
 - adding cars to favorites
-- View the list of selected cars
+- view the list of selected cars
 
 ## Installation
 

@@ -63,6 +63,7 @@ function Modal({ onClose, arr }) {
       onClose();
     }
   };
+
   const addres = address.split(',').map((item) => item.trim());
   return createPortal(
     <Backdrop onClick={onOverlayClose}>

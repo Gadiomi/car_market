@@ -19,11 +19,11 @@ function HomePage() {
         <ContentContainer>
           <Text>Plan your trip now</Text>
           <Title>
-            Save <span>big</span> with our car rental
+            We have the best <span>prices</span> for you
           </Title>
           <DescriptionText>
-            Rent the car of your dreams. Unbeatable prices, unlimited miles,
-            flexible pick-up options and much more.
+            Visit our service, where you can find any car to your taste, and
+            which will suit you and your family
           </DescriptionText>
           <ButtonContauner>
             <ContactBtn href="tel:+380730000000">Contact Us</ContactBtn>

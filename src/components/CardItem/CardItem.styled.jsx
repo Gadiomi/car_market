@@ -16,7 +16,6 @@ export const SvgHeart = styled.svg`
   position: absolute;
   top: 14px;
   right: 14px;
-
   width: 18px;
   height: 18px;
 `;
@@ -25,9 +24,9 @@ export const SvgHeartActiv = styled.svg`
   position: absolute;
   top: 14px;
   right: 14px;
-
   width: 18px;
   height: 18px;
+  fill: #3470ff;
 `;
 
 export const CarIcon = styled.img`

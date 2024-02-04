@@ -4,7 +4,7 @@ import {
   HeaderLink,
   HeaderLogo,
 } from './Header.styled';
-import logo from '../../images/logo.png';
+import logo from '../../images/new-logo.png';
 
 export const Header = () => {
   return (
@@ -15,7 +15,7 @@ export const Header = () => {
       <HeaderNavigation>
         <HeaderLink to="/">Home</HeaderLink>
         <HeaderLink to="/catalog">Catalog</HeaderLink>
-        <HeaderLink to="/favorite">Favorite</HeaderLink>
+        <HeaderLink to="/favorites">Favorite</HeaderLink>
       </HeaderNavigation>
     </HeaderContainer>
   );

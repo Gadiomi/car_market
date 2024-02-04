@@ -11,7 +11,7 @@ export const ContentContainer = styled.div`
   span {
     color: var(--blue);
   }
-  max-width: 450px;
+  max-width: 490px;
   position: relative;
   margin-left: auto;
   display: flex;
@@ -27,7 +27,7 @@ export const Text = styled.p`
 `;
 
 export const Title = styled.h1`
-  font-size: 52px;
+  font-size: 32px;
   font-weight: 700;
   margin-bottom: 32px;
   text-align: right;
@@ -35,7 +35,7 @@ export const Title = styled.h1`
 
 export const DescriptionText = styled.p`
   color: var(--modal);
-  line-height: 1.6;
+  line-height: 2;
   margin-bottom: 32px;
   text-align: right;
 `;
